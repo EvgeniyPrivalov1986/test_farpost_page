@@ -1,15 +1,12 @@
 Introduction
 ------------
 
-Этот репозиторий содержит решение тестового задания по автоматизации тестирования страниц:
-- https://www.farpost.ru/sign
-- https://www.farpost.ru/vladivostok
+Этот репозиторий содержит решение тестового задания по автоматизации тестирования страниц, с использованием паттерна PajeObjects.
 
-## Stack
+Stack
 
  - Java
  - Selenium Webdriver
- - TestNG
  - maven-surefire-plugin
  - allure-maven
 
@@ -17,7 +14,7 @@ Test-cases
 ------------
 
 Test-case #1:
-1. Открыть https://www.farpost.ru/
+1. Открыть https://www.farpost.ru/sign
 2. Перейти по ссылке "Вход и регистрация"
 3. Попытаться войти с неправильными логином и паролем. Убедиться, что
 произошла ошибка и войти не удалось
@@ -25,7 +22,8 @@ Test-case #1:
 открыт личный кабинет
 5. Логин и пароль можно задавать через параметры любым способом
 
-   Test-case #2:
+
+Test-case #2:
 1. Открыть https://www.farpost.ru/vladivostok/
 2. В строке поиска вбить "iphone" и нажать кнопку "Найти"
 3. Убедиться, что открыта страница с адресом
@@ -44,9 +42,26 @@ price_max=1000&query=iphone
 Files
 -----
 
+[BasicActions](test_farpost/src/main/java/basic/BasicActions.java) Содержит настройки для запуска браузера
+
+[Config](test_farpost/src/main/java/basic/Config.java) Содержит общие параметры запуска
+
+[Constant](test_farpost/src/main/java/constants/Constant.java) Содержит тестовые данные
+
+[BasePage](test_farpost/src/main/java/pages/base/BasePage.java) Содержит базовый класс для описания страниц
+
+[LoginPage](test_farpost/src/main/java/pages/base/LoginPage.java) Содержит класс для описания страницы https://www.farpost.ru/sign
+
+[MainPage](test_farpost/src/main/java/pages/base/MainPage.java) Содержит базовый класс для описания страницы https://www.farpost.ru/vladivostok/
+
 [BaseTest](test_farpost/src/test/java/tests/base/BaseTest.java) Содержит базовый класс, который запускает браузер, создает страницы и закрывает всё после завершения тестов
+
 [LoggingTest](test_farpost/src/test/java/tests/base/LoggingTest.java) Содержит класс, который реализует автоматизацию Test-case №1
+
 [SearchTest](test_farpost/src/test/java/tests/base/SearchTest.java) Содержит класс, который реализует автоматизацию Test-case №2
+
+[Main](test_farpost/src/main/java/Main.java) Содержит класс для запуска браузера
+
 
 How To Run Tests
 ----------------

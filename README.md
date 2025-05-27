@@ -44,24 +44,25 @@ price_max=1000&query=iphone
 Files
 -----
 
-[BaseTest](test_farpost_page/src/test/java/tests/base/BaseTest.java) Содержит базовый класс, который запускает браузер, создает страницы и закрывает всё после завершения тестов
-[LoggingTest](test_farpost_page/src/test/java/tests/base/LoggingTest.java) Содержит класс, который реализует автоматизацию Test-case №1
-[SearchTest](test_farpost_page/src/test/java/tests/base/SearchTest.java) Содержит класс, который реализует автоматизацию Test-case №2
+[BaseTest](test_farpost/src/test/java/tests/base/BaseTest.java) Содержит базовый класс, который запускает браузер, создает страницы и закрывает всё после завершения тестов
+[LoggingTest](test_farpost/src/test/java/tests/base/LoggingTest.java) Содержит класс, который реализует автоматизацию Test-case №1
+[SearchTest](test_farpost/src/test/java/tests/base/SearchTest.java) Содержит класс, который реализует автоматизацию Test-case №2
 
 How To Run Tests
 ----------------
 
 1) Клонировать репозиторий:
 
-    ```bash
-    git clone [https://github.com/EvgeniyPrivalov1986/test_farpost_page.git](https://github.com/EvgeniyPrivalov1986/test_farpost_page.git)
+     ```bash
+    git clone https://github.com/EvgeniyPrivalov1986/tests_yandex_page.git
     ```
     
-2) Скачать [Selenium WebDriver](https://developer.chrome.com/docs/chromedriver/downloads?hl=ru)
-   Выбрать версию, совпадающую с версией браузера
+2) Скачать [Selenium WebDriver](https://developer.chrome.com/docs/chromedriver/downloads?hl=ru) Выбрать версию, совпадающую с версией браузера
 
-3) Прописать пусть к файлу драйвера в файле [Main](test_farpost_page/src/main/java/Main.java):
+3) Прописать пусть к файлу драйвера в файле [Main](test_farpost/src/main/java/Main.java).
 
 5) Запускать тесты можно несколькими способами:
-   5.1 Из файла [testng.xml](test_farpost_page/src/test/resources/testng.xml) можно запустить оба теста
-   5.2 Из файлов [LoggingTest](test_farpost_page/src/test/java/tests/loggingtest/LoggingTest.java) и [SearchTest](test_farpost_page/src/test/java/tests/searchtest/SearchTest.java) можно запустить тесты по-отдельности
+   
+   5.1 Из файла [testng.xml](test_farpost/src/test/resources/testng.xml) можно запустить оба теста
+
+   5.2 Из файлов [LoggingTest](test_farpost/src/test/java/tests/loggingtest/LoggingTest.java) и [SearchTest](test_farpost/src/test/java/tests/searchtest/SearchTest.java) можно запустить тесты по-отдельности

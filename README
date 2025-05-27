@@ -1,1 +1,18 @@
+Introduction
+------------
 
+Этот репозиторий содержит решение тестового задания по автоматизации тестирования страниц:
+- https://www.farpost.ru/sign;
+- https://www.farpost.ru/vladivostok
+
+## Stack
+
+ - Java
+ - Selenium WebDriver
+ - maven-surefire-plugin
+ - allure-maven
+
+Files
+-----
+
+[BasicActions.java](BasicActions.java) contains general fixtures, settings and plugins for tests.

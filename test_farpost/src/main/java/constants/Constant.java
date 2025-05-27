@@ -29,9 +29,9 @@ public class Constant {
 
     // Данные для пользователей
     public static class UsersData {
-        // Логин неалидного пользователя
+        // Логин невалидного пользователя
         public static final String INVALID_USER_LOGIN = "invalid_login";
-        // Пароль неалидного пользователя
+        // Пароль невалидного пользователя
         public static final String INVALID_USER_PASSWORD = "invalid_password";
         // Логин валидного пользователя
         public static final String VALID_USER_LOGIN = "evprivalov86";

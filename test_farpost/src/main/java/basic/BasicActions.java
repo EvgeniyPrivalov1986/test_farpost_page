@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 public class BasicActions {
     public static WebDriver createDriver() {
         // Указываем путь к ChromeDriver
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver\\chromedriver.exe");
 
         // Настраиваем запуск Chrome в режиме инкогнито
         ChromeOptions chromeOptions = new ChromeOptions();

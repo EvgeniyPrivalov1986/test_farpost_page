@@ -1,0 +1,12 @@
+constants\Constant$TestsData.class
+Main.class
+constants\Constant$Urls.class
+pages\loginpage\LoginPage.class
+constants\Constant.class
+basic\Config.class
+constants\Constant$UsersData.class
+basic\BasicActions.class
+pages\base\BasePage.class
+pages\mainpage\MainPage.class
+constants\Constant$Errors.class
+constants\Constant$TimeoutVariable.class

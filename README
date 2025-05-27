@@ -15,4 +15,4 @@ Introduction
 Files
 -----
 
-[BasicActions.java](BasicActions.java) contains general fixtures, settings and plugins for tests.
+[BasicActions](src/main/java/basic/BasicActions.java) contains general fixtures, settings and plugins for tests.

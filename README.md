@@ -63,7 +63,5 @@ How To Run Tests
 3) Прописать пусть к файлу драйвера в файле [Main](test_farpost_page/src/main/java/Main.java):
 
 5) Запускать тесты можно несколькими способами:
-   
-  5.1 Из файла [testng.xml](test_farpost_page/src/test/resources/testng.xml) можно запустить оба теста
-  
-  5.2 Из файлов [LoggingTest](test_farpost_page/src/test/java/tests/loggingtest/LoggingTest.java) и [SearchTest](test_farpost_page/src/test/java/tests/searchtest/SearchTest.java) можно запустить тесты по-отдельности
+   5.1 Из файла [testng.xml](test_farpost_page/src/test/resources/testng.xml) можно запустить оба теста
+   5.2 Из файлов [LoggingTest](test_farpost_page/src/test/java/tests/loggingtest/LoggingTest.java) и [SearchTest](test_farpost_page/src/test/java/tests/searchtest/SearchTest.java) можно запустить тесты по-отдельности

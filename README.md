@@ -57,11 +57,13 @@ How To Run Tests
     git clone [https://github.com/EvgeniyPrivalov1986/test_farpost_page.git](https://github.com/EvgeniyPrivalov1986/test_farpost_page.git)
     ```
     
-2) Скачать Selenium WebDriver (https://developer.chrome.com/docs/chromedriver/downloads?hl=ru)
+2) Скачать [Selenium WebDriver](https://developer.chrome.com/docs/chromedriver/downloads?hl=ru)
    Выбрать версию, совпадающую с версией браузера
 
-3) Прописать пусть к файлу драйвера в файле [src/main/java/Main.java](src/main/java/Main.java):
+3) Прописать пусть к файлу драйвера в файле [Main](test_farpost_page/src/main/java/Main.java):
 
 5) Запускать тесты можно несколькими способами:
+   
   5.1 Из файла [testng.xml](test_farpost_page/src/test/resources/testng.xml) можно запустить оба теста
+  
   5.2 Из файлов [LoggingTest](test_farpost_page/src/test/java/tests/loggingtest/LoggingTest.java) и [SearchTest](test_farpost_page/src/test/java/tests/searchtest/SearchTest.java) можно запустить тесты по-отдельности

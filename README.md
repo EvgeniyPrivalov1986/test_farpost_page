@@ -76,6 +76,8 @@ How To Run Tests
 
 3) Прописать пусть к файлу драйвера в файле [BasicActions](test_farpost/src/main/java/basic/BasicActions.java).
 
+4) Установить зависимости из файла [pom.xml](test_farpost/pom.xml)
+
 5) Запускать тесты можно несколькими способами:
    
    5.1 Из файла [testng.xml](test_farpost/src/test/resources/testng.xml) можно запустить оба теста

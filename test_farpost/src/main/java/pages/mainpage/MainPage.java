@@ -9,6 +9,7 @@ import pages.base.BasePage;
 // Страница логина
 public class MainPage extends BasePage {
 
+    // Конструктор
     public MainPage(WebDriver driver) {
         super(driver);
     }
